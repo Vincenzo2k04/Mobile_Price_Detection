@@ -50,12 +50,11 @@ The dataset underwent several cleaning and transformation steps:
 
 Several machine learning models were trained and compared:
 
-- Logistic Regression
+- XGBoost
 - K-Nearest Neighbors (KNN)
-- Decision Tree
+- Naive Bayes
 - Random Forest
 - Support Vector Machine (SVM)
-- Gradient Boosting
 
 Each model was evaluated based on accuracy, precision, recall, and F1 score.
 
@@ -63,7 +62,7 @@ Each model was evaluated based on accuracy, precision, recall, and F1 score.
 
 ## ✅ Best Performing Model
 
-Random Forest and Gradient Boosting performed well on this dataset. Model selection was finalized using cross-validation and accuracy comparisons.
+XGBoost and KNN performed well on this dataset. Model selection was finalized using cross-validation and accuracy comparisons.
 
 ---
 
